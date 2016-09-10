@@ -27,7 +27,11 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:selectAllOnFocus="true"
+        android:inputType="number"
+        android:focusable="true"
+        android:textAlignment="center" />
 
     <TextView
         android:layout_width="wrap_content"
