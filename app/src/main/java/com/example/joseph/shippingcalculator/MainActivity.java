@@ -1,8 +1,10 @@
 package com.example.joseph.shippingcalculator;
 
-/*
+/**
     Nguyen Hoang C02288487
+    Project 1: Shipping Calculator
  */
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Editable;
