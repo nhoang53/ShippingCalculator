@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.joseph.shippingcalculator.MainActivity"
+    tools:context="nhoang53.cs273.orangecoastcollege.edu.shippingcalculator.MainActivity"
     android:background="@drawable/shipping_background"
     >
 

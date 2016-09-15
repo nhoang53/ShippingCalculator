@@ -1,4 +1,4 @@
-package com.example.joseph.shippingcalculator;
+package nhoang53.cs273.orangecoastcollege.edu.shippingcalculator;
 
 /**
     Nguyen Hoang C02288487
@@ -12,8 +12,6 @@ import android.text.TextWatcher;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
 import java.text.DecimalFormat;
 
 public class MainActivity extends AppCompatActivity {
@@ -26,6 +24,10 @@ public class MainActivity extends AppCompatActivity {
 
     DecimalFormat decimalFormat = new DecimalFormat("0.00");
 
+    /**
+     * Create the App Layout
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,11 +41,26 @@ public class MainActivity extends AppCompatActivity {
         weightPackageEditText = (EditText) findViewById(R.id.weightPackageEditText);
 
         weightPackageEditText.addTextChangedListener(new TextWatcher() {
+
+            /**
+             * Listener beforeTextChanged of the weighPackageEdittext
+             * @param s
+             * @param start
+             * @param count
+             * @param after
+             */
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
                 // Do nothing
             }
 
+            /**
+             * Calculate the added cost and total shipping cost base on weight which pass by parameter CharSequance s
+             * @param s
+             * @param start
+             * @param before
+             * @param count
+             */
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 if(weightPackageEditText.getText().toString().trim().length() > 0) {
@@ -59,6 +76,10 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
 
+            /**
+             * Listener afterTextChanged of the weighPackageEdittext
+             * @param s
+             */
             @Override
             public void afterTextChanged(Editable s) {
                 // Do nothing

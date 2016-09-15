@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Máy tính vận Chuyển</string>
-    <string name="weight_package">Trọng lượng của gói</string>
-    <string name="in_ounces">(trong ounce)</string>
-    <string name="base_cost">Chi phí cơ sở:</string>
-    <string name="added_cost">Thêm chi phí:</string>
-    <string name="total_shipping_cost">Tổng chi phí vận chuyển:</string>
+<string name="app_name">Máy tính vận Chuyển</string>
+<string name="weight_package">Trọng lượng của gói</string>
+<string name="in_ounces">(trong ounce)</string>
+<string name="base_cost">Chi phí cơ sở:</string>
+<string name="added_cost">Thêm chi phí:</string>
+<string name="total_shipping_cost">Tổng chi phí vận chuyển:</string>
 </resources>

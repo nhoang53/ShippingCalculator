@@ -1,4 +1,4 @@
-package com.example.joseph.shippingcalculator;
+package nhoang53.cs273.orangecoastcollege.edu.shippingcalculator;
 
 import org.junit.Test;
 

@@ -5,7 +5,7 @@ android {
     buildToolsVersion "24.0.2"
 
     defaultConfig {
-        applicationId "com.example.joseph.shippingcalculator"
+        applicationId "nhoang53.cs273.orangecoastcollege.edu.shippingcalculator"
         minSdkVersion 16
         targetSdkVersion 24
         versionCode 1
